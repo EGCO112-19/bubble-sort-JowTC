@@ -2,6 +2,7 @@
 
 #include <stdlib.h>
 #include "bubble.h"
+#include "selectsort"
 
 int main(int argc, char * argv[]){
   printf("There are %d argument\n",argc);
@@ -17,6 +18,7 @@ int main(int argc, char * argv[]){
         a[i-1]=atoi(argv[i]);
     //atoiคือเปลี่ยนค่าจาก argument เป็น integer
     }
-    //bubble(a,N);
+    bubble(a,N);
+    //selectsort(a,N);
     return 0;
 }
