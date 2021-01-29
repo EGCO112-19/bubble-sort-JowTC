@@ -1,4 +1,4 @@
-argument: main.c 
-	gcc Simplemain.c -o firstprogram
+argument: simpleMain.c 
+	gcc simpleMain.c -o JOW
 
 
