@@ -20,11 +20,11 @@ int main(int argc, char * argv[]){
     //atoiคือเปลี่ยนค่าจาก argument เป็น integer
     }
   if(strcmp(argv[1],"bubble")==0)
-      bubble(a,N);
-      if(strcmp(argv[1],"insertion"==0))
-      insertion(a,N);
-      if(strcmp(argv[1],"selection"==0))
-      selection(a,N);
+  bubble(a,N);
+  if(strcmp(argv[1],"insertion")==0)
+   insertion(a,N);
+  if(strcmp(argv[1],"selection")==0)
+   selection(a,N);
     
 
     return 0;
