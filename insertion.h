@@ -5,8 +5,8 @@
 //  Created by Mingmanas Sivaraksa on 2/1/2564 BE.
 //
 
-#ifndef insertsort_h
-#define insertsort_h
+#ifndef insertion_h
+#define insertion_h
 
 
 void insertion(int a[], int N){
