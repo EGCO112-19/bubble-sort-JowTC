@@ -1,8 +1,8 @@
 #include <stdio.h>
-
 #include <stdlib.h>
 #include "bubble.h"
-#include "selectsort"
+#include "selection.h"
+#include "insertion.h"
 
 int main(int argc, char * argv[]){
   printf("There are %d argument\n",argc);
@@ -12,13 +12,25 @@ int main(int argc, char * argv[]){
 
     }
     N=argc-1;
-    a = (int*)malloc(N*sizeof(int));
+    a = (int*)malloc(sizeof(int)*N);
     for(i = 1; i<argc; i++){
         
         a[i-1]=atoi(argv[i]);
     //atoiคือเปลี่ยนค่าจาก argument เป็น integer
     }
-    bubble(a,N);
-    //selectsort(a,N);
+    if(argv[1]=="bubble"){
+      bubble(a,N);
+      break;
+    }
+       if(argv[1]=="selection"){
+      selection(a,N);
+      break;
+    }
+     if(argv[1]=="insertion"){
+      insertion(a,N);
+      break;
+    }
+
+
     return 0;
 }
