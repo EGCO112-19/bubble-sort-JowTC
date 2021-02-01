@@ -18,15 +18,13 @@ int main(int argc, char * argv[]){
         a[i-1]=atoi(argv[i]);
     //atoiคือเปลี่ยนค่าจาก argument เป็น integer
     }
-  
-      //bubble(a,N);
-      //selection(a,N);
+  if(strcmp(argv[1],"bubble")==0)
+      bubble(a,N);
+      if(strcmp(argv[1],"insertion"==0))
       insertion(a,N);
-      
-
-      
-
-
+      if(strcmp(argv[1],"selection"==0))
+      selection(a,N);
+    
 
     return 0;
 }
