@@ -1,4 +1,4 @@
 argument: simpleMain.c 
-	gcc simpleMain.c -o JOW
+	gcc simpleMain.c -o sort
 
 
